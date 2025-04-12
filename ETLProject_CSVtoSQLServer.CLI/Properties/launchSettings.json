@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ETLProject_CSVtoSQLServer.CLI": {
+      "commandName": "Project",
+      "commandLineArgs": "sample-cab-data.csv"
+    }
+  }
+}
