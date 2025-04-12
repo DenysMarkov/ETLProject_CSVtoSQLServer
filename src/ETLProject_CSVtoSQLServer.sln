@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETLProject_CSVtoSQLServer.CLI", "ETLProject_CSVtoSQLServer.CLI\ETLProject_CSVtoSQLServer.CLI.csproj", "{6268466A-C6CC-47DF-9C4E-E7CDFBDCE0F4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6190DE6C-BBA9-4BA9-8B43-ACED5FD7718E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6268466A-C6CC-47DF-9C4E-E7CDFBDCE0F4} = {6190DE6C-BBA9-4BA9-8B43-ACED5FD7718E}
 	EndGlobalSection
 EndGlobal
