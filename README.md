@@ -1,4 +1,4 @@
-Number of rows in your table after running the program: **29840**
+Number of rows in table after running the program: **29840**
 ## Assumptions and Comments
  - SQL Server Setup: Assumes a local SQL Server instance is available with Windows Authentication (Trusted_Connection=True).
  - Data Format: Assumes the CSV follows the sample format, with datetime strings in "MM/dd/yyyy hh:mm:ss tt" and valid numeric values. Invalid rows are skipped.
